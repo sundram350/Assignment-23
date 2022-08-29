@@ -1,0 +1,83 @@
+Ans=1
+#include<iostream>
+#include<conio.h>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    cout<<"Hello MySirg"<<endl;
+}
+
+Ans=2
+#include<iostream>
+#include<conio.h>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+    cout<<"Hello"<<endl<<"MySirg"<<endl;
+}
+
+Ans=7
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cin>>a;
+    cout<<"Square of "<<a<<" is "<<a*a<<endl;
+    return 0;
+}
+
+Ans=6
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,age;
+    cout<<"Enter Value";
+    cin>>a>>b>>c;
+    age=(a+b+c)/3;
+    cout<<age;
+    return 0;
+}
+
+Ans=3
+#include<iostream>
+using namespace std;
+int main()
+{
+   int a,b;
+   cout<<"Enter Two Value"<<endl;
+   cin>>a>>b;
+   cout<<"Sum of "<<a<<" and "<<b<<" is "<<a+b<<endl;
+    return 0;
+}
+
+Ans=4
+#include<iostream>
+using namespace std;
+int main()
+{
+    int r;
+    cout<<"Enter your radius "<<endl;
+    cin>>r;
+    cout<<"Area of Circle is "<<3.14*(r*r)<<endl;
+    return 0;
+}
+
+Ans=8
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cout<<"Enter Two Variables "<<endl;
+    cin>>a>>b;
+    cout<<"Before Swap is "<<a<<" "<<b<<endl;
+    a+=b;
+    b=a-b;
+    a=a-b;
+    cout<<"After Swap is "<<a<<" "<<b<<endl;
+    return 0;
+}
